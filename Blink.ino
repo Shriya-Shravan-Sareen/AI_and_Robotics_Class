@@ -3,8 +3,8 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// the loop function runs over and over again forever
 void loop() {
+  // the loop function runs over and over again forever
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on 
   delay(1000);                      // wait for a second
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off 
